@@ -1,0 +1,599 @@
+{
+  "students": {
+    "A1B2C3": {
+      "name": "Alice Johnson",
+      "email": "alice.johnson@student.sfit.ac.in",
+      "password": "password123",
+      "uid": "921371551",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7012",
+        "ITDO7021",
+        "ITDO7023",
+        "ITIO701X"
+      ]
+    },
+    "mZiDakEsGGQF0uwx3O1cU2qaktp2": {
+      "name": "Rylen Lobo",
+      "email": "loborylen98334@student.sfit.ac.in",
+      "uid": "921371551",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7013",
+        "ITDO7022",
+        "ITL701",
+        "ITL702",
+        "ITL703",
+        "ITL704"
+      ]
+    },
+    "ZJ6JIUjK1ZaRexcMPShuwdRKM963": {
+      "name": "Sunny Nishar",
+      "email": "sunnynishar@student.sfit.ac.in",
+      "uid": "242431595",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7013",
+        "ITDO7022",
+        "ITL701",
+        "ITL702",
+        "ITL703",
+        "ITL704"
+      ]
+    },
+    "D4E5F6": {
+      "name": "Bob Brown",
+      "email": "bob.brown@student.sfit.ac.in",
+      "password": "securePassword456",
+      "uid": "934178256",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7013",
+        "ITDO7014",
+        "ITDO7022",
+        "ITDO7024",
+        "ITIO701X"
+      ]
+    },
+    "G7H8I9": {
+      "name": "Charlie Smith",
+      "email": "charlie.smith@student.sfit.ac.in",
+      "password": "charlie789",
+      "uid": "957264193",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7013",
+        "ITDO7021",
+        "ITDO7024",
+        "ITIO701X"
+      ]
+    },
+    "J1K2L3": {
+      "name": "David Green",
+      "email": "david.green@student.sfit.ac.in",
+      "password": "davidSecure123",
+      "uid": "832764512",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7012",
+        "ITDO7014",
+        "ITDO7023",
+        "ITDO7024",
+        "ITIO701X"
+      ]
+    },
+    "M4N5O6": {
+      "name": "Eva White",
+      "email": "eva.white@student.sfit.ac.in",
+      "password": "evaPassword456",
+      "uid": "917263851",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7012",
+        "ITDO7021",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "P7Q8R9": {
+      "name": "Frank Black",
+      "email": "frank.black@student.sfit.ac.in",
+      "password": "frank789",
+      "uid": "823451679",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7013",
+        "ITDO7014",
+        "ITDO7023",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "S1T2U3": {
+      "name": "Grace Lee",
+      "email": "grace.lee@student.sfit.ac.in",
+      "password": "graceSecure789",
+      "uid": "756489123",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7014",
+        "ITDO7022",
+        "ITDO7023",
+        "ITIO701X"
+      ]
+    },
+    "V4W5X6": {
+      "name": "Henry Adams",
+      "email": "henry.adams@student.sfit.ac.in",
+      "password": "henry123",
+      "uid": "987512346",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7012",
+        "ITDO7013",
+        "ITDO7024",
+        "ITDO7021",
+        "ITIO701X"
+      ]
+    },
+    "Y7Z8A9": {
+      "name": "Ivy Collins",
+      "email": "ivy.collins@student.sfit.ac.in",
+      "password": "ivySecure456",
+      "uid": "673845290",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7014",
+        "ITDO7012",
+        "ITDO7022",
+        "ITDO7023",
+        "ITIO701X"
+      ]
+    },
+    "B1C2D3": {
+      "name": "Jack Brown",
+      "email": "jack.brown@student.sfit.ac.in",
+      "password": "jack456",
+      "uid": "864319752",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7013",
+        "ITDO7024",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "C4D5E6": {
+      "name": "Kathy Peterson",
+      "email": "kathy.peterson@student.sfit.ac.in",
+      "password": "kathy123",
+      "uid": "935164273",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7012",
+        "ITDO7013",
+        "ITDO7021",
+        "ITDO7024",
+        "ITIO701X"
+      ]
+    },
+    "F7G8H9": {
+      "name": "Leo Thompson",
+      "email": "leo.thompson@student.sfit.ac.in",
+      "password": "leoSecure789",
+      "uid": "953176421",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7014",
+        "ITDO7023",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "I1J2K3": {
+      "name": "Megan Foster",
+      "email": "megan.foster@student.sfit.ac.in",
+      "password": "meganPass123",
+      "uid": "861327459",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7013",
+        "ITDO7012",
+        "ITDO7021",
+        "ITDO7023",
+        "ITIO701X"
+      ]
+    },
+    "L4M5N6": {
+      "name": "Nathan Scott",
+      "email": "nathan.scott@student.sfit.ac.in",
+      "password": "nathan123",
+      "uid": "792345168",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7014",
+        "ITDO7011",
+        "ITDO7024",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "O7P8Q9": {
+      "name": "Olivia Young",
+      "email": "olivia.young@student.sfit.ac.in",
+      "password": "olivia789",
+      "uid": "983174652",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7012",
+        "ITDO7013",
+        "ITDO7021",
+        "ITDO7023",
+        "ITIO701X"
+      ]
+    },
+    "Q1R2S3": {
+      "name": "Paul Walker",
+      "email": "paul.walker@student.sfit.ac.in",
+      "password": "paulSecure456",
+      "uid": "972481356",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7013",
+        "ITDO7014",
+        "ITDO7024",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "T4U5V6": {
+      "name": "Quincy Carter",
+      "email": "quincy.carter@student.sfit.ac.in",
+      "password": "quincy789",
+      "uid": "784513629",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7014",
+        "ITDO7023",
+        "ITDO7021",
+        "ITIO701X"
+      ]
+    },
+    "W7X8Y9": {
+      "name": "Ruth Evans",
+      "email": "ruth.evans@student.sfit.ac.in",
+      "password": "ruthSecure123",
+      "uid": "893175264",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7012",
+        "ITDO7011",
+        "ITDO7024",
+        "ITDO7022",
+        "ITIO701X"
+      ]
+    },
+    "Y1Z2A3": {
+      "name": "Sam Harris",
+      "email": "sam.harris@student.sfit.ac.in",
+      "password": "sam123",
+      "uid": "981654372",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7014",
+        "ITDO7012",
+        "ITDO7023",
+        "ITDO7021",
+        "ITIO701X"
+      ]
+    },
+    "B4C5D6": {
+      "name": "Tina Morgan",
+      "email": "tina.morgan@student.sfit.ac.in",
+      "password": "tinaSecure789",
+      "uid": "764289153",
+      "department": "INFT",
+      "enrolledClasses": [
+        "ITC701",
+        "ITC702",
+        "ITDO7011",
+        "ITDO7013",
+        "ITDO7022",
+        "ITDO7024",
+        "ITIO701X"
+      ]
+    }
+  },
+
+  "classes": {
+    "ITC701": {
+      "name": "AI and DS –II",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Amrita Mathur" },
+      "semester": 7,
+      "schedule": {
+        "monday": { "start": "10:15", "end": "11:15" },
+        "wednesday": { "start": "10:15", "end": "11:15" },
+        "thursday": { "start": "09:00", "end": "10:00" }
+      }
+    },
+    "ITC702": {
+      "name": "Internet of Everything",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Dhanashri Lamane" },
+      "semester": 7,
+      "schedule": {
+        "tuesday": { "start": "10:15", "end": "11:15" },
+        "wednesday": { "start": "11:15", "end": "12:15" }
+      }
+    },
+    "ITDO7013": {
+      "name": "Infrastructure Security",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Akansha Naik" },
+      "semester": 7,
+      "schedule": {
+        "monday": { "start": "09:00", "end": "10:00" },
+        "thursday": { "start": "10:15", "end": "12:15" }
+      }
+    },
+    "ITDO7014": {
+      "name": "Software Testing and QA",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Grinal Tuscaon" },
+      "semester": 7,
+      "schedule": {
+        "tuesday": { "start": "02:00", "end": "03:00" },
+        "wednesday": { "start": "02:00", "end": "03:00" }
+      }
+    },
+    "ITDO7022": {
+      "name": "AR - VR",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Amol Lachake" },
+      "semester": 7,
+      "schedule": {
+        "monday": { "start": "11:15", "end": "12:15" },
+        "tuesday": { "start": "11:15", "end": "12:15" },
+        "wednesday": { "start": "01:00", "end": "02:00" }
+      }
+    },
+    "ITL701": {
+      "name": "Data Science Lab",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Amrita Mathur" },
+      "semester": 7,
+      "schedule": {
+        "monday": { "start": "03:00", "end": "05:00" }
+      }
+    },
+    "ITL702": {
+      "name": "IOE Lab",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Dhanashri Lamane" },
+      "semester": 7,
+      "schedule": {
+        "monday": { "start": "01:00", "end": "03:00" },
+        "friday": { "start": "03:00", "end": "05:00" }
+      }
+    },
+    "ITL703": {
+      "name": "Secure Application Development",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Vandana Patil" },
+      "semester": 7,
+      "schedule": {
+        "friday": { "start": "10:15", "end": "12:15" }
+      }
+    },
+    "ITL704": {
+      "name": "Recent Open Source Project Lab",
+      "departmentId": "INFT",
+      "teacher": { "id": "TINT001", "name": "Alvina Lopes" },
+      "semester": 7,
+      "schedule": {
+        "friday": { "start": "09:00", "end": "10:00" }
+      }
+    }
+  },
+
+  "teachers": {
+    "TINT001": {
+      "name": "Amrita Mathur",
+      "email": "amrita.mathur@example.edu",
+      "department": "INFT",
+      "password": "AM_secure123",
+      "faculty": true,
+      "enrolledClasses": ["ITC701", "ITL701"]
+    },
+    "TINT002": {
+      "name": "Dhanashri Lamane",
+      "email": "dhanashri.lamane@sfit.ac.in",
+      "department": "INFT",
+      "password": "DL_secure456",
+      "faculty": true,
+      "enrolledClasses": ["ITC702", "ITL702"]
+    },
+    "TINT003": {
+      "name": "Akansha Naik",
+      "email": "akansha.naik@example.edu",
+      "department": "INFT",
+      "password": "AN_secure789",
+      "faculty": true,
+      "enrolledClasses": ["ITDO7013"]
+    },
+    "TINT004": {
+      "name": "Grinal Tuscaon",
+      "email": "grinal.tuscaon@example.edu",
+
+      "department": "INFT",
+      "password": "GT_secure101",
+      "faculty": true,
+      "enrolledClasses": ["ITDO7014"]
+    },
+    "TINT005": {
+      "name": "Amol Lachake",
+      "email": "amol.lachake@example.edu",
+      "department": "INFT",
+      "password": "AL_secure202",
+      "faculty": true,
+      "enrolledClasses": ["ITDO7022"]
+    },
+    "TINT006": {
+      "name": "Vandana Patil",
+      "email": "vandana.patil@example.edu",
+      "department": "INFT",
+      "password": "VP_secure303",
+      "faculty": true,
+      "enrolledClasses": ["ITL703"]
+    },
+    "TINT007": {
+      "name": "Alvina Lopes",
+      "email": "alvina.lopes@example.edu",
+      "department": "INFT",
+      "password": "AL_secure404",
+      "faculty": true,
+      "enrolledClasses": ["ITL704"]
+    }
+  },
+
+  "attendance": {
+    "ITC701": {
+      "2024-10-15": {
+        "A1B2C3": {
+          "status": 1,
+          "time": "10:20"
+        },
+        "D4E5F6": {
+          "status": 0,
+          "time": null
+        }
+      },
+      "2024-10-16": {
+        "A1B2C3": {
+          "status": 1,
+          "time": "10:18"
+        },
+        "D4E5F6": {
+          "status": 1,
+          "time": "10:22"
+        }
+      }
+    },
+    "ITC702": {
+      "2024-10-15": {
+        "G7H8I9": {
+          "status": 0,
+          "time": null
+        },
+        "J1K2L3": {
+          "status": 1,
+          "time": "11:10"
+        }
+      },
+      "2024-10-16": {
+        "G7H8I9": {
+          "status": 1,
+          "time": "11:12"
+        },
+        "J1K2L3": {
+          "status": 1,
+          "time": "11:15"
+        }
+      }
+    },
+    "ITDO7013": {
+      "2024-10-15": {
+        "M4N5O6": {
+          "status": 1,
+          "time": "09:05"
+        },
+        "P7Q8R9": {
+          "status": 0,
+          "time": null
+        }
+      },
+      "2024-10-16": {
+        "M4N5O6": {
+          "status": 1,
+          "time": "09:03"
+        },
+        "P7Q8R9": {
+          "status": 1,
+          "time": "09:07"
+        }
+      }
+    },
+    "ITDO7014": {
+      "2024-10-15": {
+        "S1T2U3": {
+          "status": 1,
+          "time": "14:05"
+        },
+        "V4W5X6": {
+          "status": 0,
+          "time": null
+        }
+      },
+      "2024-10-16": {
+        "S1T2U3": {
+          "status": 1,
+          "time": "14:02"
+        },
+        "V4W5X6": {
+          "status": 1,
+          "time": "14:06"
+        }
+      }
+    }
+  }
+}
