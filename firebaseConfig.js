@@ -1,18 +1,22 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+
 import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration using environment variables
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
-  databaseURL: process.env.REACT_APP_FIREBASE_DATABASE_URL,
-  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
-  measurementId: process.env.REACT_APP_FIREBASE_MEASUREMENT_ID
+  apiKey: "AIzaSyC6ItZlAAWg0mz3pU2RChDFzI0V8Qg0Hig",
+  authDomain: "ioelab-d6d3c.firebaseapp.com",
+  databaseURL: "https://ioelab-d6d3c-default-rtdb.firebaseio.com",
+  projectId: "ioelab-d6d3c",
+  storageBucket: "ioelab-d6d3c.appspot.com",
+  messagingSenderId: "330156938094",
+  appId: "1:330156938094:web:8bdac6a24fc3ebe84b277f",
+  measurementId: "G-B91MTY1X13"
 };
 
 // Initialize Firebase

@@ -36,19 +36,13 @@ type Class = {
   schedule: Schedule;
 };
 
-type Classes = {
-  [key: string]: Class;
-};
-
 type User = {
   enrolledClasses: string[];
 };
 
 export default function Component() {
   const { userInfo } = useUserInfoStore();
-  const [user, setUser] = React.useState<User | null>(null);
   const [enrolledClasses, setEnrolledClasses] = React.useState<Class[]>([]);
-  const [classData, setClassData] = React.useState<Classes>({});
   const [loading, setLoading] = React.useState(true);
   const [error, setError] = React.useState<string | null>(null);
 
@@ -62,15 +56,13 @@ export default function Component() {
 
         if (userSnapshot.exists()) {
           const userData = userSnapshot.val() as User;
-          setUser(userData);
-
+          // setUser(userData); // This line is removed as setUser is not defined
           // Fetch class data
           const classRef = ref(db, `classes`);
           onValue(classRef, (snapshot) => {
             if (snapshot.exists()) {
-              const classes = snapshot.val() as Classes;
-              setClassData(classes);
-
+              const classes = snapshot.val();
+              // setClassData(classes);
               // Filter the classes based on enrolledClasses
               const filteredClasses = userData.enrolledClasses
                 .map((id) => ({ id, ...classes[id] }))

@@ -24,9 +24,7 @@ import {
   orderByChild,
   onValue,
   update,
-  remove,
-  limitToFirst,
-  startAfter
+  remove
 } from "firebase/database";
 import { db } from "../../../firebaseConfig.js";
 import { Button } from "@/components/ui/button";
@@ -79,7 +77,6 @@ export type Student = {
 export const StudentTable: React.FC<StudentTableProps> = ({ courseId }) => {
   const [students, setStudents] = React.useState<Student[]>([]);
   const [loading, setLoading] = React.useState(true);
-  const [error, setError] = React.useState<string | null>(null);
   const [selectedDate, setSelectedDate] = React.useState<Date | null>(
     new Date()
   );
@@ -143,13 +140,12 @@ export const StudentTable: React.FC<StudentTableProps> = ({ courseId }) => {
             }
           },
           (error) => {
-            setError("Error fetching student data.");
+            // setError("Error fetching student data.");
             console.error("Error fetching student data:", error);
-            setLoading(false);
           }
         );
       } catch (error) {
-        setError("Error fetching student data.");
+        // setError("Error fetching student data.");
         console.error("Error fetching student data:", error);
         setLoading(false);
       }
@@ -390,9 +386,9 @@ export const StudentTable: React.FC<StudentTableProps> = ({ courseId }) => {
             <PopoverContent className="w-auto p-0" align="start">
               <Calendar
                 mode="single"
-                selected={selectedDate}
+                selected={selectedDate ?? new Date()}
                 onSelect={(date) => {
-                  setSelectedDate(date);
+                  setSelectedDate(date ?? null);
                 }}
                 initialFocus
               />

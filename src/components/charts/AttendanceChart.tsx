@@ -12,7 +12,7 @@ import {
   ChartTooltip,
   ChartTooltipContent
 } from "@/components/ui/chart";
-import { CartesianGrid, Line, LineChart, XAxis, YAxis } from "recharts";
+import { CartesianGrid, Line, LineChart, XAxis,  } from "recharts";
 
 interface AttendanceChartProps {
   studentName: string;

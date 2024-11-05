@@ -181,7 +181,7 @@ export default function FacultyPage({
   );
 }
 
-const AttendanceButton = ({ courseId, setIsModalOpen }) => {
+const AttendanceButton: React.FC<{ courseId: string; setIsModalOpen: React.Dispatch<React.SetStateAction<boolean>> }> = ({ courseId, setIsModalOpen }) => {
   const [collectAttendance, setCollectAttendance] = React.useState(false);
   const [attendanceCourseId, setAttendanceCourseId] = React.useState("");
 

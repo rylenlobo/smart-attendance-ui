@@ -2,8 +2,7 @@
 import { useUserInfoStore } from "@/store/userStore";
 import { ref, onValue } from "firebase/database";
 import React, { useEffect, useState } from "react";
-import { auth, db } from "../../../firebaseConfig";
-import { useAuthState } from "react-firebase-hooks/auth";
+import { db } from "../../../firebaseConfig";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 
@@ -100,7 +99,6 @@ function CircularProgress({ percentage }: { percentage: number }) {
 
 export default function StudentPage() {
   const { userInfo } = useUserInfoStore();
-  const [user] = useAuthState(auth);
   const [attendanceData, setAttendanceData] = useState<AttendanceData>({});
   const [classData, setClassData] = useState<ClassData>({});
   const [loading, setLoading] = useState(true);
